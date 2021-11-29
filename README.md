@@ -1,5 +1,42 @@
-# FCC Test Suite Template
+This is the website for the Biography of Thomas Edison
 
-**Fork** this project (do not open a Pull Request) to start working on any of freeCodeCamp's responsive web design course projects. Select the project from the dropdown menu and run the tests to see which requirements your project is still missing.
+Built With
 
-You don't know how to fork a project? [Click hear](https://help.github.com/articles/fork-a-repo/) to learn how to do it.
+    Major languages
+    HTML
+    CSS
+
+Getting Started
+
+This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
+
+To get a local copy up and running follow these simple example steps.
+Prerequisites
+
+    HTML
+    CSS
+    Linters
+
+Setup
+
+git clone https://github.com/Mwapsam/portifolio.git
+
+cd portfolio
+Install
+
+npm init -y
+
+# LINTER SETUP
+
+# .gitignore
+node_modules/
+
+# Webhint
+npm install --save-dev hint@6.x
+npx hint .
+
+# Stylelint
+
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+
+npx stylelint "**/*.{css,scss}"
