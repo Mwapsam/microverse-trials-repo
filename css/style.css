@@ -1,8 +1,7 @@
-
 #main {
   width: 100%;
   margin-bottom: 100px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #main div {
@@ -65,5 +64,5 @@ figure img {
 }
 
 #tribute-link:hover {
-  background-color: yellowgreen;
+  background-color: rgb(231, 240, 215);
 }
