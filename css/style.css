@@ -6,13 +6,13 @@
 
 #main div {
   width: 100%;
-  background-color: rgb(136, 159, 159);
+  background-color: rgb(184, 228, 228);
   text-align: center;
   padding: 50px;
 }
 
 #title {
-  color: white;
+  color: #ffffff;
   font-size: 30px;
 }
 
@@ -50,14 +50,14 @@ figure img {
 }
 
 #link-paragrapgh {
-  color: teal;
+  color: rgb(127, 160, 160);
   font-weight: 500;
   margin: 20px auto;
 }
 
 #tribute-link {
   background-color: teal;
-  color: white;
+  color: #ffffff;
   padding: 8px 15px;
   border-radius: 5px;
   text-decoration: none;
